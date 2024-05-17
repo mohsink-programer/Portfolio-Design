@@ -1,0 +1,44 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohsin Khan Portfolio</title>
+    <link rel="stylesheet" href="CSS/Contact.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="Home.html" target="_blank">Home</a></li>
+                <li><a href="Project.html">Project</a></li>
+                <li><a href="About.html" target="_blank">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <Section class="contact">
+        <h1>Contact</h1>
+        <form class="flex flex-col gap-8 md:w-[600px]">
+            <div class="flex flex-col">
+                <label for="name">Name</label>
+                <input id="name" type="text" required="" name="name">
+            </div>
+            <div class="flex flex-col">
+                <label for="email">Email</label>
+                <input id="email" required="" name="email">
+            </div>
+            <div class="flex flex-col">
+                <label for="message">Message</label>
+                <textarea name="message" rows="9" id="message" minlength="15" required="">
+            </textarea>
+            </div>
+            <button class="btn">Send</button>
+        </form>
+    </Section>
+</body>
+
+</html>
